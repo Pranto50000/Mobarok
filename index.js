@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 const config = {
   birthdate: '09, November, 2002',
-  name: 'JAKEA JAMI'
+  name: 'SAHANI PARVIN'
 };
 
 function hideEverything() {
