@@ -4,8 +4,8 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: '05, December, 2002',
-  name: 'SUCHI'
+  birthdate: '18, December, 2002',
+  name: 'MOBAROK ALI'
 };
 
 function hideEverything() {
