@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 const config = {
   birthdate: '01,January, 2021',
-  name: 'Marufa Parvin'
+  name: 'Marufa Apu'
 };
 
 function hideEverything() {
@@ -21,7 +21,7 @@ const confettiSettings = { target: 'confetti' };
 const confetti = new window.ConfettiGenerator(confettiSettings);
 confetti.render();
 
-const second = 1000,
+const second = 60,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
@@ -48,7 +48,7 @@ x = setInterval(function () {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'NEW', 'YEAR','2022', config.name],
+      strings: ['HAPPY', 'NEW', 'YEAR', config.name],
       charSize: 40,
       charSpacing: 40,
       lineHeight: 70,
