@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 const config = {
   birthdate: '01,January, 2021',
-  name: 'Marufa Apu'
+  name: 'Rafiqul  Islam '
 };
 
 function hideEverything() {
